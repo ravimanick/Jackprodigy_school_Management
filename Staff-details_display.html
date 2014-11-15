@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Staff profile</title>
+
+    <!-- Bootstrap link file-->
+    <link href="static/css/bootstrap-model.css" rel="stylesheet">
+    <link href="static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/custome.css" rel="stylesheet">
+    <link href="static/css/datepicker3.css" rel="stylesheet">
+    <link href="static/css/no.css" rel="stylesheet">
+
+
+    <script src="static/js/imsajax.js"></script>
+    <script src="static/js/custome.js"></script>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/validation.js"></script>
+    <script src="static/js/script.js"></script>
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="dist/js/val.js"></script>
+</head>
+<body>
+<form method="post">
+           <div class="container">
+            	<h2>Staff Profile</h2>
+            	<div class="col-sm-3"
+            	<form role="form">
+           <div class="from-group">
+              <p><label for="stf_name">Name</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Gen">Gender</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Std">Standard</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Spec">Specialization</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Add1">Address Line1</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Add2">Address Line2</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_cit">City</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Sta">State</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Pin">Pin</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_name">Mobile</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_name">E.Mail</label></p>
+          </div>
+
+
+            	</form>
+            	</div>
+
+             <div class="col-sm-7">
+          <div class="from-group">
+              <p><label for="stf_name" id="st_name"></label></p>
+          </div>
+
+           <div class="from-group">
+            <p><label for="stf_gen" id="stf_gen"></label></p>
+            </div>
+
+           <div class="from-group">
+              <p><label for="stf_std" id="stf_std"></label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_spe" id="stf_spe"></label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_ad1" id="stf_ad1"></label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_ad2" id="stf_ad2"></label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_cit" id="stf_cit"></label></p>
+          </div>
+
+          <div class="from-group">
+             <p><label for="stf_st" id="stf_st"></label></p> 
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_pin" id="stf_pin"></label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_mob" id="stf_mob"></label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_mail" id="stf_mail"></label></p>
+          </div>
+
+          
+          
+          
+            </div>
+
+            <div class="col-sm-2">
+
+            <ul class="nav nav-tabs nav-stacked">
+
+					<li><a href="#AssignSubject">Assign Subject</a></li>
+					<li><a href="#/staffHS">Staff Handled Subject</a></li>
+					<li><a href="#/Disable">Disable</a></li>
+					<li><a href="#/Delete">Delete</a></li>
+				</ul>
+			</div>
+
+        </div>
+
+
+
+
+
+        </form>
+
+				<script type="text/javascript">
+				window.onload = function(){
+				   document.getElementById('send').onclick= function(e){
+				       alert(document.getElementById("st_name").value);
+				       return false;
+				   }
+				}
+				</script>
+</body>
+</html>

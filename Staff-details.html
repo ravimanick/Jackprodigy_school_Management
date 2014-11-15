@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Staff profile</title>
+
+    <!-- Bootstrap link file-->
+    <link href="static/css/bootstrap-model.css" rel="stylesheet">
+    <link href="static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/custome.css" rel="stylesheet">
+    <link href="static/css/datepicker3.css" rel="stylesheet">
+    <link href="static/css/no.css" rel="stylesheet">
+
+    <script src="static/js/imsajax.js"></script>
+    <script src="static/js/custome.js"></script>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/validation.js"></script>
+    <script src="static/js/script.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="dist/js/val.js"></script>
+</head>
+<body>
+<form method="post">
+           <div class="container">
+            	<h2>Staff Profile</h2>
+            	<div class="col-sm-3"
+            	<form role="form">
+           <div class="from-group">
+              <p><label for="stf_name">Name</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Gen">Gender</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Std">Standard</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Spec">Specialization</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Add1">Address Line1</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Add2">Address Line2</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_cit">City</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_Sta">State</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_Pin">Pin</label></p>
+          </div>
+
+           <div class="from-group">
+              <p><label for="stf_name">Mobile</label></p>
+          </div>
+
+          <div class="from-group">
+              <p><label for="stf_name">E.Mail</label></p>
+          </div>
+
+
+            	</form>
+            	</div>
+
+             <div class="col-sm-7">
+            	 <div class="from-group">
+              <p><input type="Stf_name" class="form-control"  id="st_name" placeholder="Name" required="true"></p>
+          </div>
+
+           <div class="from-group">
+<p><input type="Stf_name" class="form-control"  id="st_gen" placeholder="Gender" required="true"></p>
+          </div>
+
+           <div class="from-group">
+              <p><input type="Stf_std" class="form-control"  id="st_std" placeholder="Standard" required="true"></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_Spe" class="form-control"  id="st_spe" placeholder="Specilization" required="true"></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_ad1" class="form-control"  id="st_ad1" placeholder="street" ></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_ad2" class="form-control"  id="st_ad2" placeholder="Address" required="true"></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_cit" class="form-control"  id="st_cit" placeholder="City" required="true"></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_st" class="form-control"  id="st_st" placeholder="State" required="true"></p>
+          </div>
+
+           <div class="from-group">
+              <p><input type="Stf_pin" class="form-control"  id="st_pin" placeholder="pinecode" required="true"></p>
+          </div>
+           <div class="from-group">
+              <p><input type="Stf_mob" class="form-control"  id="st_mob" placeholder="Mobile" required="true"></p>
+          </div>
+
+          <div class="from-group">
+              <p><input type="Stf_mail" class="form-control"  id="st_mail" placeholder="E.mail" required="true"></p>
+          </div>
+          
+          <button type="button" id="send"class="btn btn-info" onclick="ajaxdata('Staff-details_display.html','frm-det');">Submit</button>
+          
+            </div>
+
+            <div class="col-sm-2">
+
+            <ul class="nav nav-tabs nav-stacked">
+
+					<li><a href="#AssignSubject">Assign Subject</a></li>
+					<li><a href="#StaffHS">Staff Handled Subject</a></li>
+					<li><a href="#Disable">Disable</a></li>
+					<li><a href="#delete">Delete</a></li>
+				</ul>
+			</div>
+
+        </div>
+        <div id ="frm-det"></div>
+
+        </form>
+
+			
+</body>
+</html>

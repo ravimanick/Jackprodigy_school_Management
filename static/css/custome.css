@@ -1,0 +1,49 @@
+.error_msg{
+	color: red;
+	font-style: italic;
+}
+.verticalline
+{
+	height: 240px;
+	border-left: 1px solid #E3E4F1;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+}
+.bs-example
+{
+   margin: 20px;
+}
+body{
+/*     background: url('../images/bg.jpg') no-repeat center center fixed;
+ */    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 12%;  
+    background-color:white;  
+}
+
+#bg{
+    background:url('../img/con_bg4.png') no-repeat center center;
+    height: 500px;
+}
+.modal
+{
+	border:none!important;
+	background-color:none!important ;
+	-moz-box-shadow:none!important;
+	box-shadow:none!important;
+	overflow:scroll!important;
+}
+p{
+	Text-align:right;
+}
+
+.form-control{
+	width:30%;
+}
+.addbut{
+	padding-left:20px;
+
+}
